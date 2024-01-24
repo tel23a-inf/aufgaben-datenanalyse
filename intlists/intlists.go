@@ -43,10 +43,6 @@ func ValueRange(values []int) []int {
 // Die Funktion liefert die Summe aller Werte.
 func Sum(values []int) int {
 	sum := 0
-	/* Hinweis:
-	   Verwenden Sie eine for-Schleife, um die Summe zu berechnen.
-	   Addieren Sie in jedem Schleifendurchlauf den aktuellen Wert zur Summe.
-	*/
 	// TODO
 	return sum
 }
@@ -55,9 +51,6 @@ func Sum(values []int) int {
 // Die Funktion liefert das Produkt aller Werte.
 func Product(values []int) int {
 	product := 1
-	/* Hinweis:
-	   Gehen Sie analog zu Sum vor.
-	*/
 	// TODO
 	return product
 }
