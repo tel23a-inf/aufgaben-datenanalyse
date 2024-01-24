@@ -10,6 +10,7 @@ func readUserInput() (int, int) {
 
 	   Speichern Sie die Eingaben in den Variablen n und d.
 	*/
+	// TODO
 	return d, n
 }
 
