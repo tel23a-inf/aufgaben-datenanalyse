@@ -1,7 +1,5 @@
 package testseries
 
-import "github.com/tel23a-inf/data-analysis/intlists"
-
 // AbsoluteFrequencies erwartet eine Liste mit den Werten einer ganzzahligen Messreihe.
 // Die Funktion liefert eine Liste mit den absoluten Häufigkeiten für jeden Wert
 // zwischen dem Minimum und dem Maximum der Messreihe.
@@ -18,12 +16,8 @@ func AbsoluteFrequencies(values []int) []int {
 	   Eine Liste mit der richtigen Länge können Sie mit make erzeugen:
 	   freq := make([]int, 5) erzeugt eine Liste mit 5 Elementen.
 	*/
-	min, max := intlists.Min(values), intlists.Max(values)
-	freq := make([]int, max-min+1)
-	for _, v := range values {
-		freq[v-min] += 1
-	}
-	return freq
+	// TODO
+	return []int{}
 }
 
 // RelativeFrequencies erwartet eine Liste mit absoluten Häufigkeiten einer ganzzahligen Messreihe.
@@ -36,9 +30,6 @@ func RelativeFrequencies(values []int) []float64 {
 	   indem Sie in einer Schleife über die Werte iterieren
 	   und in jedem Schleifendurchlauf den Wert durch die Summe teilen.
 	*/
-	sum := float64(intlists.Sum(values))
-	for i, r := range values {
-		freq[i] = float64(r) / sum
-	}
+	// TODO
 	return freq
 }

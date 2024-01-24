@@ -19,5 +19,6 @@ func Distribution(values []int) []float64 {
 	/* Hinweis:
 	Verwenden Sie die Funktionen AbsoluteFrequencies, RelativeFrequencies und EmpiricalDistribution.
 	*/
+	// TODO
 	return []float64{}
 }
